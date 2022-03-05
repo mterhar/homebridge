@@ -1,6 +1,7 @@
 import fs from "fs";
 import chalk from "chalk";
 import qrcode from "qrcode-terminal";
+import init from "./util/tracing";
 
 import * as mac from "./util/mac";
 import { Logger } from "./logger";

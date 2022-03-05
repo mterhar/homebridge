@@ -44,6 +44,12 @@
   ],
   "preferGlobal": true,
   "dependencies": {
+    "@grpc/grpc-js": "^1.5.7",
+    "@opentelemetry/api": "^1.0.4",
+    "@opentelemetry/auto-instrumentations-node": "^0.27.4",
+    "@opentelemetry/exporter-trace-otlp-grpc": "^0.27.0",
+    "@opentelemetry/sdk-node": "^0.27.0",
+    "@opentelemetry/sdk-trace-base": "^1.0.1",
     "chalk": "^4.1.2",
     "commander": "5.1.0",
     "fs-extra": "^10.0.0",

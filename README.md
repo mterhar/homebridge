@@ -63,6 +63,16 @@ Then start Homebridge in your terminal window by running:
 homebridge
 ```
 
+Or to start with telemetry and system health:
+
+```shell
+export OTEL_COLLECTOR_URL="api.honeyzcomb.io:443"
+export OTEL_HEADER_NAME1="x-honeycomb-team"
+export OTEL_HEADER_VALUE1=[[REDACTED]]
+export OTEL_HEADER_NAME2="x-honeycomb-dataset"
+export OTEL_HEADER_VALUE2=homelab
+homebridge
+
 ## Installing Plugins
 
 Plugins are Node.js modules published through NPM and tagged with the keyword `homebridge-plugin`. They must have a name with the prefix `homebridge-`, like **homebridge-mysmartlock**.
